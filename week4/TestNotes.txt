@@ -1,12 +1,12 @@
 Week 4 experiments
-Pathway:
-Website / 3D page:
+Pathway: Film review
+Website / 3D page: https://github.com/genavivermz/CS110-Week4
 
 Experiment
-What I expected:
-File and code/value I changed:
-What I observed (or exact error):
-What I kept, restored, or corrected:
+What I expected: To just link 3d page to a simple website to implement a modal view.
+File and code/value I changed: Re-worked stylesheet pathways (style.css)
+What I observed (or exact error): My oversight of pathways (such as CSS, JS, and the 3D view) made certain styles and links not work initially.
+What I kept, restored, or corrected: Kept the code within the stylesheet and JavaScript files, but renamed the hrefs to include their root folders.
 My next test:
 
 Changes I made:
@@ -14,7 +14,7 @@ Changes I made:
 Future tests and ideas:
 
 Final checks
-Website -> 3D page -> website:
+Website -> 3D page -> website: 
 Scene and description agree:
 Narrow and wide layout:
 Keyboard navigation:
