@@ -3,16 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Film Review</title>
+    <title>Exploding Head | Review</title>
+    <meta name="description" content="A simple review page for the film Exploding Head and its visual effects.">
     <link rel="stylesheet" href="week4/css/style.css">
 </head>
 <body>
-    <h1>Head VFX</h1>
-    <p>Review of outdated film technique featured in "Exploding Head" by M. Stalbert.</p>
-    <p><a href="3d.html">Open the Babylon.js scene</a></p>
-    <script src="index.js"></script>
+    <div class="page-shell">
+        <header class="topbar">
+            <p class="eyebrow">Film Review</p>
+            <nav class="topnav" aria-label="Main navigation">
+                <a href="#overview">Overview</a>
+                <a href="#quick-read">Quick Read</a>
+                <a href="week4/3d.html">3D Scene</a>
+            </nav>
+        </header>
 
-    <button id="watch-video-button" class="watch-video-button">Watch Video</button>
-    
+        <main class="hero" id="overview">
+            <section class="intro-panel">
+                <h1>Exploding Head</h1>
+                <p class="subtitle">
+                    A brief look at how a simple visual trick can feel so disturbing that it sticks with the viewer long after the scene ends.
+                </p>
+
+                <div class="cta-row">
+                    <a class="primary-button" href="https://www.youtube.com/watch?v=WV0G-4GwQ8E&list=PLsvXBxgtEE5nelS2wauKPATfKKasN72Xj&index=22" target="_blank" rel="noreferrer">Watch the video</a>
+                    <a class="secondary-button" href="week4/3d.html">Open the Babylon.js scene</a>
+                </div>
+            </section>
+        </main>
+
+        <aside class="info-card" aria-label="Review details">
+            <p class="label">Review note</p>
+            <h2>Why it works</h2>
+            <p>
+                The effect is unsettling because it feels immediate, raw, and slightly absurd. It does not rely on complex storytelling; instead, it uses a single impactful image to trigger discomfort and curiosity.
+            </p>
+        </aside>
+
+        <section class="quick-read" id="quick-read" aria-label="Quick read summary">
+            <p class="label">Quick Read</p>
+            <p>
+                Exploding Head is a memorable example of an old-school visual effect that still feels disturbing today. The clip succeeds because it feels abrupt, uncanny, and strangely convincing without needing elaborate production design. The result is a short but powerful experience that invites the viewer to consider how simple technique can create lasting emotional impact.
+            </p>
+        </section>
+
+        <section class="video-panel" id="video" aria-label="Film details">
+            <div class="video-copy">
+                <p class="label">Review focus</p>
+                <h3>What makes this clip memorable?</h3>
+                <p>
+                    The visual is abrupt, strange, and strangely captivating. Instead of overwhelming the viewer with excessive detail, the effect relies on a simple idea that creates a strong emotional reaction. That emotional reaction is what makes the piece stick.
+                </p>
+            </div>
+        </section>
+    </div>
 </body>
 </html>
