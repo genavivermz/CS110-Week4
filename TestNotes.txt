@@ -1,5 +1,23 @@
-- Prediction: The status text on the 3D page will say the Exploding Head scene is ready after it loads
-- Change: Set statusText to an Exploding Head Film Review message in week4/index.js
-- Result: Status text updates after load, console shows the Film Review message too
-- Next test: Check homepage and 3D page links both ways
-- Future changes & ideas: Add light/dark mode toggle button to site; change CSS for different color scheme; add more objects to 3d view.
+Week 4 experiments
+Pathway: Film review
+Website / 3D page: https://github.com/genavivermz/CS110-Week4
+
+Experiment
+What I expected: To just link 3d page to a simple website to implement a modal view.
+File and code/value I changed: Re-worked stylesheet pathways (style.css)
+What I observed (or exact error): My oversight of pathways (such as CSS, JS, and the 3D view) made certain styles and links not work initially.
+What I kept, restored, or corrected: Kept the code within the stylesheet and JavaScript files, but renamed the hrefs to include their root folders.
+
+My next test: Linking the 3D page to show up as a modal within the webpage.
+
+Changes I made: Copied over vendor folder from the Week 4 Starter ZIP.
+
+Future tests and ideas: Create a modal view of the YouTube video.
+
+Final checks
+Website -> 3D page -> website: https://github.com/genavivermz/CS110-Week4
+Scene and description agree: Yes
+Narrow and wide layout: Yes
+Keyboard navigation: Working
+Console errors / unresolved issues: None
+Peer observation and correction: Couldn't see updated styling; fixed root folder pathways.

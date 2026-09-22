@@ -181,17 +181,121 @@ h1 {
     margin-bottom: 20px;
 }
 
+.review-heading {
+    margin: 8px 0 12px;
+    font-size: 1.5rem;
+}
+
+.review-heading a {
+    color: #171717;
+}
+
+.review-heading a:hover,
+.review-heading a:focus-visible,
+.quick-read a {
+    color: #c53131;
+}
+
+.quick-read a {
+    font-weight: 600;
+}
+
 .quick-read p + p {
     margin-top: 10px;
 }
 
+.scene-panel,
+.scene-change-note {
+    margin-top: 24px;
+    padding: 18px 20px;
+    background: #ffffff;
+    border: 1px solid #e8e0e0;
+    max-width: 720px;
+}
+
+.scene-panel h2,
+.video-copy h3 {
+    margin: 8px 0 12px;
+}
+
+.scene-panel p,
+.scene-change-note p {
+    margin: 0 0 12px;
+    color: #3d3d3d;
+    line-height: 1.7;
+}
+
+.scene-panel p:last-child,
+.scene-change-note p:last-child {
+    margin-bottom: 0;
+}
+
+.scene-panel .label,
+.scene-change-note .label {
+    margin-bottom: 8px;
+}
+
+.scene-panel code,
+.scene-change-note code,
+.req-list code {
+    font-size: 0.92em;
+}
+
+.req-list {
+    margin: 0 0 12px;
+    padding-left: 1.2rem;
+    color: #3d3d3d;
+    line-height: 1.7;
+}
+
+.req-list li + li {
+    margin-top: 8px;
+}
+
+.req-list.numbered {
+    list-style: decimal;
+}
+
+.follow-link {
+    margin-top: 16px !important;
+}
+
+.follow-link a {
+    color: #c53131;
+    font-weight: 600;
+}
+
+.video-copy .req-list a {
+    color: #c53131;
+    font-weight: 600;
+}
+
+.topnav a:focus-visible,
+.back-link:focus-visible,
+.primary-button:focus-visible,
+.secondary-button:focus-visible,
+button:focus-visible,
+#renderCanvas:focus-visible {
+    outline: 2px solid #c53131;
+    outline-offset: 3px;
+}
+
 .video-panel {
     padding: 24px 22px;
+    margin-bottom: 20px;
 }
 
 .video-copy h3 {
     margin: 10px 0 12px;
     font-size: clamp(1.6rem, 2vw, 2.3rem);
+}
+
+.video-copy p {
+    margin: 0 0 12px;
+}
+
+.video-copy p:last-child {
+    margin-bottom: 0;
 }
 
 @media (max-width: 760px) {

@@ -41,7 +41,7 @@ if (canvas && typeof BABYLON !== "undefined") {
             diameter: 2,
             segments: 32
         }, scene);
-        sphere.position.y = 0.7;
+        sphere.position.y = 1;
 
         const material = new BABYLON.StandardMaterial("sphereMaterial", scene);
         material.diffuseColor = new BABYLON.Color3(0.82, 0.19, 0.19);
@@ -57,7 +57,9 @@ if (canvas && typeof BABYLON !== "undefined") {
         resetButton.disabled = false;
         resetButton.addEventListener("click", resetCamera);
 
-        statusText.textContent = "Scene ready.";
+        console.log("Film Review: Exploding Head review companion is ready.");
+        statusText.textContent = "Exploding Head companion scene ready.";
+
         return { scene, camera, resetCamera };
     };
 
