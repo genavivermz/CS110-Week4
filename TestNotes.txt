@@ -1,0 +1,5 @@
+- Prediction: The status text on the 3D page will say the Exploding Head scene is ready after it loads
+- Change: Set statusText to an Exploding Head Film Review message in week4/index.js
+- Result: Status text updates after load, console shows the Film Review message too
+- Next test: Check homepage and 3D page links both ways
+- Future changes & ideas: Add light/dark mode toggle button to site; change CSS for different color scheme; add more objects to 3d view.
